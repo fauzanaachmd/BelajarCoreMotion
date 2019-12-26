@@ -12,6 +12,8 @@
 		D4B88E1D22D72EFF007E6F9A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4B88E1B22D72EFF007E6F9A /* Main.storyboard */; };
 		D4B88E1F22D72F00007E6F9A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4B88E1E22D72F00007E6F9A /* Assets.xcassets */; };
 		D4B88E2222D72F00007E6F9A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4B88E2022D72F00007E6F9A /* LaunchScreen.storyboard */; };
+		D4B88E2A22D735ED007E6F9A /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B88E2922D735ED007E6F9A /* SecondViewController.swift */; };
+		D4B88E2C22D73D3A007E6F9A /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B88E2B22D73D3A007E6F9A /* ThirdViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		D4B88E1E22D72F00007E6F9A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D4B88E2122D72F00007E6F9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D4B88E2322D72F00007E6F9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4B88E2922D735ED007E6F9A /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		D4B88E2B22D73D3A007E6F9A /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				D4B88E1E22D72F00007E6F9A /* Assets.xcassets */,
 				D4B88E2022D72F00007E6F9A /* LaunchScreen.storyboard */,
 				D4B88E2322D72F00007E6F9A /* Info.plist */,
+				D4B88E2922D735ED007E6F9A /* SecondViewController.swift */,
+				D4B88E2B22D73D3A007E6F9A /* ThirdViewController.swift */,
 			);
 			path = BelajarCoreMotion;
 			sourceTree = "<group>";
@@ -135,7 +141,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D4B88E2A22D735ED007E6F9A /* SecondViewController.swift in Sources */,
 				D4B88E1A22D72EFF007E6F9A /* ViewController.swift in Sources */,
+				D4B88E2C22D73D3A007E6F9A /* ThirdViewController.swift in Sources */,
 				D4B88E1822D72EFF007E6F9A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
